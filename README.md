@@ -29,6 +29,6 @@ Full Stack Web Application
 - backend → Server & API
 
 ## 🔹 Live Demo
-(Deployed on Render – Free Tier)
+https://akashdesani.github.io/FUTURE_FS_01/
 
 > Note: Initial load may take few seconds due to free hosting.
