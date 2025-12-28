@@ -1,3 +1,5 @@
+const API_URL = "https://future-fs-01-q3sv.onrender.com";
+
 
 (function () {
     const hamburger = document.querySelector('.navbar-hamburger');
