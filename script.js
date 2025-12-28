@@ -1,4 +1,22 @@
 const API_URL = "https://future-fs-01-q3sv.onrender.com";
+fetch("https://future-fs-01-q3sv.onrender.com/contact", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify({
+    name: nameValue,
+    email: emailValue,
+    message: messageValue
+  })
+})
+.then(res => res.json())
+.then(data => {
+  alert(data.message);
+})
+.catch(err => {
+  alert("Server error!");
+});
 
 
 (function () {
