@@ -809,7 +809,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 
 <script>
-document.getElementById("contactForm").addEventListener("submit", async function(e) {
+document.getElementById("contactForm").addEventListener("submit", async function (e) {
   e.preventDefault();
 
   const data = {
@@ -820,7 +820,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
   };
 
   try {
-    const res = await fetch("http://localhost:5000/contact", {
+    const res = await fetch("https://portfolio-backend-07nz.onrender.com/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -834,8 +834,10 @@ document.getElementById("contactForm").addEventListener("submit", async function
     } else {
       alert("Something went wrong!");
     }
+
   } catch (error) {
     alert("Server error!");
+    console.error(error);
   }
 });
 </script>
