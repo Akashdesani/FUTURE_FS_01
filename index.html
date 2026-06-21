@@ -7,7 +7,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
 
 
   <meta charset="utf-8">
@@ -15,9 +15,10 @@
 
   <title>
     Akash Desani - Digital Marketing &amp; Creative Tech</title>
-    <title>Akash Desani | Web Developer & Digital Marketer</title>
-<meta name="description" content="Portfolio of Akash Desani – Web Developer, Graphic Designer & Digital Marketing Expert">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akash Desani | Web Developer & Digital Marketer</title>
+  <meta name="description"
+    content="Portfolio of Akash Desani – Web Developer, Graphic Designer & Digital Marketing Expert">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 
@@ -156,9 +157,8 @@
                                                   </div>
 
                                                   <div class="hero-cta-wrapper">
-                                                    <a href="https://www.linkedin.com/in/akash-desani/"
-   target="_blank"
-   style="
+                                                    <a href="https://www.linkedin.com/in/akash-desani/" target="_blank"
+                                                      style="
      display: inline-flex;
      align-items: center;
      justify-content: center;
@@ -169,17 +169,17 @@
      margin: 3px 6px;
      text-decoration: none;
    ">
-   
-   <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
-        alt="LinkedIn"
-        style="height:22px; width:auto;">
-</a>
-<style>
-.hero-cta-wrapper a:hover img {
-  transform: scale(1.4);
-  transition: 0.3s;
-}
-</style>
+
+                                                      <img
+                                                        src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+                                                        alt="LinkedIn" style="height:22px; width:auto;">
+                                                    </a>
+                                                    <style>
+                                                      .hero-cta-wrapper a:hover img {
+                                                        transform: scale(1.4);
+                                                        transition: 0.3s;
+                                                      }
+                                                    </style>
 
 
                                                     <a href="https://s3.amazonaws.com/media-prod.butternut.ai/website_images/resume-image-upload/1765337854.7288752_Resume.pdf"
@@ -305,7 +305,7 @@
                                                   <p class="stat-label">Websites Built</p>
                                                 </div>
 
-                                                
+
 
                                                 <div class="stat-card visible" id="statCard2"
                                                   style="transition-delay: 0.32s;">
@@ -329,44 +329,44 @@
                                                 </div>
                                               </div>
                                             </div>
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const counters = document.querySelectorAll(".stat-number");
+                                            <script>
+                                              document.addEventListener("DOMContentLoaded", () => {
+                                                const counters = document.querySelectorAll(".stat-number");
 
-  const startCount = (counter) => {
-    let start = 0;
-    const target = +counter.getAttribute("data-target");
-    const speed = 40;
+                                                const startCount = (counter) => {
+                                                  let start = 0;
+                                                  const target = +counter.getAttribute("data-target");
+                                                  const speed = 40;
 
-    const updateCount = () => {
-      if (start < target) {
-        start++;
-        counter.innerText = start + "+";
-        setTimeout(updateCount, speed);
-      } else {
-        counter.innerText = target + "+";
-      }
-    };
+                                                  const updateCount = () => {
+                                                    if (start < target) {
+                                                      start++;
+                                                      counter.innerText = start + "+";
+                                                      setTimeout(updateCount, speed);
+                                                    } else {
+                                                      counter.innerText = target + "+";
+                                                    }
+                                                  };
 
-    updateCount();
-  };
+                                                  updateCount();
+                                                };
 
-  const observer = new IntersectionObserver((entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        startCount(entry.target);
-        observer.unobserve(entry.target); // માત્ર એકવાર count થાય
-      }
-    });
-  }, {
-    threshold: 0.4 // 60% section દેખાય ત્યારે start
-  });
+                                                const observer = new IntersectionObserver((entries, observer) => {
+                                                  entries.forEach(entry => {
+                                                    if (entry.isIntersecting) {
+                                                      startCount(entry.target);
+                                                      observer.unobserve(entry.target); // માત્ર એકવાર count થાય
+                                                    }
+                                                  });
+                                                }, {
+                                                  threshold: 0.4 // 60% section દેખાય ત્યારે start
+                                                });
 
-  counters.forEach(counter => {
-    observer.observe(counter);
-  });
-});
-</script>
+                                                counters.forEach(counter => {
+                                                  observer.observe(counter);
+                                                });
+                                              });
+                                            </script>
 
 
                                             <div class="features-section">
@@ -572,6 +572,43 @@ document.addEventListener("DOMContentLoaded", () => {
                                             </div>
 
                                             <div class="projects-grid" contenteditable="false">
+
+                                              <!-- Project 2: Smart Resume Analyzer -->
+                                              <article class="project-card animate-in">
+                                                <div class="project-image-wrapper">
+                                                  <img
+                                                    src="Smart EMI Calculator Pro.png"
+                                                    alt="Smart EMI Calculator Pro"
+                                                    class="project-image" contenteditable="false">
+                                                  <div class="project-overlay"></div>
+                                                </div>
+                                                <div class="project-content" contenteditable="false">
+                                                  <h3 class="project-title">Smart EMI Calculator Pro</h3>
+                                                  <p class="project-description">I built a Smart EMI Calculator to quickly calculate loan EMIs, interest, and total payments. I have personally used EMI calculators when comparing loan options.</p>
+                                                  <div class="project-tech-stack">
+                                                    <span class="tech-badge">HTML5</span>
+                                                    <span class="tech-badge">CSS3</span>
+                                                    <span class="tech-badge">Vanilla JavaScript (No Framework)</span>
+                                                    <span class="tech-badge">AI</span>
+                                                  </div>
+                                                  <div class="project-footer">
+                                                    <button
+                                                      data-external-url="https://emi-calculator-pro-navy.vercel.app/"
+                                                      class="project-cta" data-project="smart-resume-analyzer"
+                                                      onclick="window.open('https://emi-calculator-pro-navy.vercel.app/', '_blank')"
+                                                      style="pointer-events: auto;" contenteditable="false"
+                                                      data-target="_blank">
+                                                      View Details
+                                                      <svg class="cta-icon" viewBox="0 0 24 24" fill="none"
+                                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round">
+                                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                      </svg>
+                                                    </button>
+                                                  </div>
+                                                </div>
+                                              </article>
+
                                               <!-- Project 1: Online Book Store Website -->
                                               <article class="project-card animate-in">
                                                 <div class="project-image-wrapper">
@@ -784,386 +821,378 @@ document.addEventListener("DOMContentLoaded", () => {
                                               </p>
                                             </div>
 
-                                            
-
-                                             
-
-                                                  <div class="contact-form-box">
-  <h2>Get In Touch</h2>
-
-  
-<div class="contact-form-center">
-  <div class="contact-form-box">
-    <form id="contactForm">
-      <input type="text" name="name" id="name" placeholder="Your Name" required>
-
-      <input type="email" name="email" id="email" placeholder="Your Email" required>
-
-      <input type="text" name="subject" id="subject" placeholder="Subject">
-
-      <textarea name="message" id="message" placeholder="Your Message" required></textarea>
-
-      <button type="submit">Send Message</button>
-    </form>
-  </div>
-</div>
-
-<script>
-document.getElementById("contactForm").addEventListener("submit", async function (e) {
-  e.preventDefault();
-
-  const data = {
-    name: document.getElementById("name").value,
-    email: document.getElementById("email").value,
-    subject: document.getElementById("subject").value,
-    message: document.getElementById("message").value
-  };
-
-  try {
-    const res = await fetch("https://portfolio-backend-07nz.onrender.com/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(data)
-    });
-
-    if (res.ok) {
-      alert("Message Sent Successfully!");
-      document.getElementById("contactForm").reset();
-    } else {
-      alert("Something went wrong!");
-    }
-
-  } catch (error) {
-    alert("Server error!");
-    console.error(error);
-  }
-});
-</script>
 
 
 
 
+                                            <div class="contact-form-box">
+                                              <h2>Get In Touch</h2>
 
 
-                                                  <div class="alternative-actions">
-                                                    <a href="https://s3.amazonaws.com/media-prod.butternut.ai/website_images/resume-image-upload/1765337854.7288752_Resume.pdf"
-                                                      class="alt-action-link" target="_blank" rel="noopener noreferrer"
-                                                      data-target-backup="_blank" contenteditable="false">
-                                                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                                        <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"></path>
-                                                      </svg>
-                                                      <span class="" contenteditable="false">Download Resume</span>
-                                                    </a>
+                                              <div class="contact-form-center">
+                                                <div class="contact-form-box">
+                                                  <form id="contactForm">
+                                                    <input type="text" name="name" id="name" placeholder="Your Name"
+                                                      required>
 
-                                                  </div>
+                                                    <input type="email" name="email" id="email" placeholder="Your Email"
+                                                      required>
+
+                                                    <input type="text" name="subject" id="subject"
+                                                      placeholder="Subject">
+
+                                                    <textarea name="message" id="message" placeholder="Your Message"
+                                                      required></textarea>
+
+                                                    <button type="submit">Send Message</button>
+                                                  </form>
                                                 </div>
                                               </div>
-                                            </div>
-                                          </div>
-                                        </section>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="h-full w-full">
-                            <div class="w-full h-full relative bg-shade-light " id="XjMGLhd7OoG8KT1765338043">
-                              <div class="w-full h-full relative live-mode opacity-100">
-                                <div class="code-editor-container">
-                                  <div class="relative w-full">
-                                    <div class="code-preview-container relative">
-                                      <div id="user-content" class="
-          w-full  relative
-          
-        " style="background: var(--landing-background);">
-                                        <style></style>
 
-                                        <footer class="footer-wellness-section">
-                                          <div class="footer-decorative-border"></div>
-                                          <div class="footer-wellness-container" contenteditable="false">
+                                              <script>
+                                                document.getElementById("contactForm").addEventListener("submit", async function (e) {
+                                                  e.preventDefault();
 
-                                            <!-- Newsletter Section -->
-<div class="footer-newsletter-wrapper">
-    <div class="footer-newsletter-content">
-        <div class="footer-newsletter-text">
-            <h3 class="footer-newsletter-heading">✨ Stay Connected with Us</h3>
-            <p class="footer-newsletter-description">
-                Subscribe to our newsletter for exclusive wellness tips,
-                inspiring updates, and special offers delivered straight to
-                your inbox.
-            </p>
-        </div>
+                                                  const data = {
+                                                    name: document.getElementById("name").value,
+                                                    email: document.getElementById("email").value,
+                                                    subject: document.getElementById("subject").value,
+                                                    message: document.getElementById("message").value
+                                                  };
 
-        <form class="footer-newsletter-form" id="footerNewsletterForm">
-            <input 
-                type="email"
-                class="footer-newsletter-input"
-                placeholder="Enter your email address"
-                name="email"
-                id="newsletterEmail"
-                required
-            >
+                                                  try {
+                                                    const res = await fetch("https://portfolio-backend-07nz.onrender.com/contact", {
+                                                      method: "POST",
+                                                      headers: {
+                                                        "Content-Type": "application/json"
+                                                      },
+                                                      body: JSON.stringify(data)
+                                                    });
 
-            <button 
-                type="submit"
-                class="footer-newsletter-button">
-                Subscribe
-            </button>
-        </form>
-    </div>
+                                                    if (res.ok) {
+                                                      alert("Message Sent Successfully!");
+                                                      document.getElementById("contactForm").reset();
+                                                    } else {
+                                                      alert("Something went wrong!");
+                                                    }
 
-    <div class="footer-form-message" id="formMessage"></div>
-</div>
-
-<!-- JavaScript -->
-<script>
-document.getElementById("footerNewsletterForm").addEventListener("submit", function(e) {
-    e.preventDefault(); // page reload stop
-
-    // Email value
-    const email = document.getElementById("newsletterEmail").value;
-
-    // (Optional) email console check
-    console.log("Subscribed Email:", email);
-
-    // ✅ CHANGE THIS LINK ONLY
-    window.location.href = "Thankyou.html";
-});
-</script>
-
-
-                                            <!-- Footer Grid -->
-                                            <div class="footer-grid-wrapper">
-
-                                              <!-- Quick Links Column -->
-                                              <div class="footer-column">
-                                                <h3 class="footer-column-heading">Quick Links</h3>
-                                                <ul class="footer-links-list">
-                                                  <li class="footer-link-item">
-                                                    <a href="#home" class="footer-link" data-target-backup="undefined"
-                                                      target="undefined">
-                                                      <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
-                                                          stroke-linecap="round" stroke-linejoin="round"></path>
-                                                      </svg>
-                                                      <h4>Home</h4>
-                                                    </a>
-                                                  </li>
-                                                  <li class="footer-link-item">
-                                                    <a href="#about" class="footer-link" data-target-backup="undefined"
-                                                      target="undefined">
-                                                      <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
-                                                          stroke-linecap="round" stroke-linejoin="round"></path>
-                                                      </svg>
-                                                      <h4>About Us</h4>
-                                                    </a>
-                                                  </li>
-                                                  <li class="footer-link-item">
-                                                    <a href="#services" class="footer-link"
-                                                      data-target-backup="undefined" target="undefined">
-                                                      <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
-                                                          stroke-linecap="round" stroke-linejoin="round"></path>
-                                                      </svg>
-                                                      <h4>Our Services</h4>
-                                                    </a>
-                                                  </li>
-                                                  <li class="footer-link-item">
-                                                    <a href="#portfolio" class="footer-link"
-                                                      data-target-backup="undefined" target="undefined">
-                                                      <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
-                                                          stroke-linecap="round" stroke-linejoin="round"></path>
-                                                      </svg>
-                                                      <h4>Portfolio</h4>
-                                                    </a>
-                                                  </li>
-                                                  <li class="footer-link-item">
-                                                    <a href="#contact" class="footer-link"
-                                                      data-target-backup="undefined" target="undefined"
-                                                      contenteditable="false">
-                                                      <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
-                                                          stroke-linecap="round" stroke-linejoin="round"></path>
-                                                      </svg>
-                                                      <h4>Contact Us</h4>
-                                                    </a>
-                                                  </li>
-                                                </ul>
-                                              </div>
-
-                                              <!-- Services Column -->
-                                              <div class="footer-column" contenteditable="false">
-                                                <h3 class="footer-column-heading">Our Services</h3>
-                                                <ul class="footer-links-list">
-                                                  <li class="footer-link-item">
-                                                    <a href="#web-dev" class="footer-link"
-                                                      data-target-backup="undefined" target="undefined">
-                                                      <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
-                                                          stroke-linecap="round" stroke-linejoin="round" class="">
-                                                        </path>
-                                                      </svg>
-                                                      <h4>Web Development</h4>
-                                                    </a>
-                                                  </li>
-                                                  <li class="footer-link-item">
-                                                    <a href="#cyber-security" class="footer-link"
-                                                      data-target-backup="undefined" target="undefined">
-                                                      <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
-                                                          stroke-linecap="round" stroke-linejoin="round"></path>
-                                                      </svg>
-                                                      <h4>Cyber Security</h4>
-                                                    </a>
-                                                  </li>
-                                                  <li class="footer-link-item">
-                                                    <a href="#graphic-design" class="footer-link"
-                                                      data-target-backup="undefined" target="undefined">
-                                                      <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
-                                                          stroke-linecap="round" stroke-linejoin="round"></path>
-                                                      </svg>
-                                                      <h4>Graphic Design</h4>
-                                                    </a>
-                                                  </li>
-                                                  <li class="footer-link-item">
-                                                    <a href="#video-editing" class="footer-link"
-                                                      data-target-backup="undefined" target="undefined">
-                                                      <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
-                                                          stroke-linecap="round" stroke-linejoin="round"></path>
-                                                      </svg>
-                                                      <h4>Video Editing</h4>
-                                                    </a>
-                                                  </li>
-                                                  <li class="footer-link-item">
-                                                    <a href="#marketing" class="footer-link"
-                                                      data-target-backup="undefined" target="undefined">
-                                                      <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
-                                                          stroke-linecap="round" stroke-linejoin="round"></path>
-                                                      </svg>
-                                                      <h4>Digital Marketing</h4>
-                                                    </a>
-                                                  </li>
-                                                </ul>
-                                              </div>
-                                              <div class="footer-column" contenteditable="false">
-                                                <h3 class="footer-column-heading" contenteditable="false">Resources</h3>
-                                                <ul class="footer-links-list" contenteditable="false">
-                                                  <li class="footer-link-item" contenteditable="false">
-                                                    <a href="https://akashdesani.github.io/Student-To-Do-List/"
-                                                      class="footer-link" data-target-backup="_blank" target="_blank"
-                                                      contenteditable="false">
-                                                      <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
-                                                          stroke-linecap="round" stroke-linejoin="round" class="">
-                                                        </path>
-                                                      </svg>
-                                                      <h4>Student-To-Do-List</h4>
-                                                    </a>
-                                                  </li>
-                                                  <li class="footer-link-item">
-                                                    <a href="https://akashdesani.github.io/Weather-Project-/"
-                                                      class="footer-link" data-target-backup="_blank" target="_blank"
-                                                      contenteditable="false">
-                                                      <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
-                                                          stroke-linecap="round" stroke-linejoin="round"></path>
-                                                      </svg>
-                                                      <h4>Weather App</h4>
-                                                    </a>
-                                                  </li>
-                                                  <li class="footer-link-item">
-                                                    <a href="https://desanitechnologysx.blogspot.com/"
-                                                      class="footer-link" data-target-backup="_blank" target="_blank"
-                                                      contenteditable="false">
-                                                      <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
-                                                          stroke-linecap="round" stroke-linejoin="round"></path>
-                                                      </svg>
-                                                      <h4>Blog Articles</h4>
-                                                    </a>
-                                                  </li>
-                                                  <li class="footer-link-item">
-                                                    <a href="https://www.youtube.com/@DesaniTechnology"
-                                                      class="footer-link" data-target-backup="_blank" target="_blank"
-                                                      contenteditable="false">
-                                                      <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
-                                                          stroke-linecap="round" stroke-linejoin="round" class="">
-                                                        </path>
-                                                      </svg>
-                                                      <h4>Desani Technology</h4>
-                                                    </a>
-                                                  </li>
-                                                  <li class="footer-link-item">
-                                                    <a href="https://www.youtube.com/@DesaniXBusinessFinance"
-                                                      class="footer-link" data-target-backup="_blank" target="_blank"
-                                                      contenteditable="false">
-                                                      <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
-                                                          stroke-linecap="round" stroke-linejoin="round"></path>
-                                                      </svg>
-                                                      <h4>DesaniX Business & Finance</h4>
-                                                    </a>
-                                                  </li>
-                                                </ul>
-                                              </div>
-
-                                              <!-- Resources Column -->
+                                                  } catch (error) {
+                                                    alert("Server error!");
+                                                    console.error(error);
+                                                  }
+                                                });
+                                              </script>
 
 
 
 
 
-                                              <div id="dynamic-script-container-yccdnnbfy">
+
+                                              <div class="alternative-actions">
+                                                <a href="https://s3.amazonaws.com/media-prod.butternut.ai/website_images/resume-image-upload/1765337854.7288752_Resume.pdf"
+                                                  class="alt-action-link" target="_blank" rel="noopener noreferrer"
+                                                  data-target-backup="_blank" contenteditable="false">
+                                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                    <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"></path>
+                                                  </svg>
+                                                  <span class="" contenteditable="false">Download Resume</span>
+                                                </a>
 
                                               </div>
-                                              <div id="dynamic-script-container-r6baajhhc">
-
-                                              </div>
-                                              <div id="dynamic-script-container-ituwvrsd9">
-
-                                              </div>
-                                              <div id="dynamic-script-container-gkriekzbb">
-                                              </div>
-                                              <div id="dynamic-script-container-4cbju1ws4"></div>
-                                              <div id="dynamic-script-container-5xu7f3c2w"></div>
                                             </div>
                                           </div>
                                       </div>
                                     </div>
+                                    </section>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        </footer>
+                      </div>
+                      <div class="h-full w-full">
+                        <div class="w-full h-full relative bg-shade-light " id="XjMGLhd7OoG8KT1765338043">
+                          <div class="w-full h-full relative live-mode opacity-100">
+                            <div class="code-editor-container">
+                              <div class="relative w-full">
+                                <div class="code-preview-container relative">
+                                  <div id="user-content" class="
+          w-full  relative
+          
+        " style="background: var(--landing-background);">
+                                    <style></style>
+
+                                    <footer class="footer-wellness-section">
+                                      <div class="footer-decorative-border"></div>
+                                      <div class="footer-wellness-container" contenteditable="false">
+
+                                        <!-- Newsletter Section -->
+                                        <div class="footer-newsletter-wrapper">
+                                          <div class="footer-newsletter-content">
+                                            <div class="footer-newsletter-text">
+                                              <h3 class="footer-newsletter-heading">✨ Stay Connected with Us</h3>
+                                              <p class="footer-newsletter-description">
+                                                Subscribe to our newsletter for exclusive wellness tips,
+                                                inspiring updates, and special offers delivered straight to
+                                                your inbox.
+                                              </p>
+                                            </div>
+
+                                            <form class="footer-newsletter-form" id="footerNewsletterForm">
+                                              <input type="email" class="footer-newsletter-input"
+                                                placeholder="Enter your email address" name="email" id="newsletterEmail"
+                                                required>
+
+                                              <button type="submit" class="footer-newsletter-button">
+                                                Subscribe
+                                              </button>
+                                            </form>
+                                          </div>
+
+                                          <div class="footer-form-message" id="formMessage"></div>
+                                        </div>
+
+                                        <!-- JavaScript -->
+                                        <script>
+                                          document.getElementById("footerNewsletterForm").addEventListener("submit", function (e) {
+                                            e.preventDefault(); // page reload stop
+
+                                            // Email value
+                                            const email = document.getElementById("newsletterEmail").value;
+
+                                            // (Optional) email console check
+                                            console.log("Subscribed Email:", email);
+
+                                            // ✅ CHANGE THIS LINK ONLY
+                                            window.location.href = "Thankyou.html";
+                                          });
+                                        </script>
+
+
+                                        <!-- Footer Grid -->
+                                        <div class="footer-grid-wrapper">
+
+                                          <!-- Quick Links Column -->
+                                          <div class="footer-column">
+                                            <h3 class="footer-column-heading">Quick Links</h3>
+                                            <ul class="footer-links-list">
+                                              <li class="footer-link-item">
+                                                <a href="#home" class="footer-link" data-target-backup="undefined"
+                                                  target="undefined">
+                                                  <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
+                                                      stroke-linecap="round" stroke-linejoin="round"></path>
+                                                  </svg>
+                                                  <h4>Home</h4>
+                                                </a>
+                                              </li>
+                                              <li class="footer-link-item">
+                                                <a href="#about" class="footer-link" data-target-backup="undefined"
+                                                  target="undefined">
+                                                  <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
+                                                      stroke-linecap="round" stroke-linejoin="round"></path>
+                                                  </svg>
+                                                  <h4>About Us</h4>
+                                                </a>
+                                              </li>
+                                              <li class="footer-link-item">
+                                                <a href="#services" class="footer-link" data-target-backup="undefined"
+                                                  target="undefined">
+                                                  <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
+                                                      stroke-linecap="round" stroke-linejoin="round"></path>
+                                                  </svg>
+                                                  <h4>Our Services</h4>
+                                                </a>
+                                              </li>
+                                              <li class="footer-link-item">
+                                                <a href="#portfolio" class="footer-link" data-target-backup="undefined"
+                                                  target="undefined">
+                                                  <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
+                                                      stroke-linecap="round" stroke-linejoin="round"></path>
+                                                  </svg>
+                                                  <h4>Portfolio</h4>
+                                                </a>
+                                              </li>
+                                              <li class="footer-link-item">
+                                                <a href="#contact" class="footer-link" data-target-backup="undefined"
+                                                  target="undefined" contenteditable="false">
+                                                  <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
+                                                      stroke-linecap="round" stroke-linejoin="round"></path>
+                                                  </svg>
+                                                  <h4>Contact Us</h4>
+                                                </a>
+                                              </li>
+                                            </ul>
+                                          </div>
+
+                                          <!-- Services Column -->
+                                          <div class="footer-column" contenteditable="false">
+                                            <h3 class="footer-column-heading">Our Services</h3>
+                                            <ul class="footer-links-list">
+                                              <li class="footer-link-item">
+                                                <a href="#web-dev" class="footer-link" data-target-backup="undefined"
+                                                  target="undefined">
+                                                  <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
+                                                      stroke-linecap="round" stroke-linejoin="round" class="">
+                                                    </path>
+                                                  </svg>
+                                                  <h4>Web Development</h4>
+                                                </a>
+                                              </li>
+                                              <li class="footer-link-item">
+                                                <a href="#cyber-security" class="footer-link"
+                                                  data-target-backup="undefined" target="undefined">
+                                                  <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
+                                                      stroke-linecap="round" stroke-linejoin="round"></path>
+                                                  </svg>
+                                                  <h4>Cyber Security</h4>
+                                                </a>
+                                              </li>
+                                              <li class="footer-link-item">
+                                                <a href="#graphic-design" class="footer-link"
+                                                  data-target-backup="undefined" target="undefined">
+                                                  <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
+                                                      stroke-linecap="round" stroke-linejoin="round"></path>
+                                                  </svg>
+                                                  <h4>Graphic Design</h4>
+                                                </a>
+                                              </li>
+                                              <li class="footer-link-item">
+                                                <a href="#video-editing" class="footer-link"
+                                                  data-target-backup="undefined" target="undefined">
+                                                  <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
+                                                      stroke-linecap="round" stroke-linejoin="round"></path>
+                                                  </svg>
+                                                  <h4>Video Editing</h4>
+                                                </a>
+                                              </li>
+                                              <li class="footer-link-item">
+                                                <a href="#marketing" class="footer-link" data-target-backup="undefined"
+                                                  target="undefined">
+                                                  <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
+                                                      stroke-linecap="round" stroke-linejoin="round"></path>
+                                                  </svg>
+                                                  <h4>Digital Marketing</h4>
+                                                </a>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="footer-column" contenteditable="false">
+                                            <h3 class="footer-column-heading" contenteditable="false">Resources</h3>
+                                            <ul class="footer-links-list" contenteditable="false">
+                                              <li class="footer-link-item" contenteditable="false">
+                                                <a href="https://akashdesani.github.io/Student-To-Do-List/"
+                                                  class="footer-link" data-target-backup="_blank" target="_blank"
+                                                  contenteditable="false">
+                                                  <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
+                                                      stroke-linecap="round" stroke-linejoin="round" class="">
+                                                    </path>
+                                                  </svg>
+                                                  <h4>Student-To-Do-List</h4>
+                                                </a>
+                                              </li>
+                                              <li class="footer-link-item">
+                                                <a href="https://akashdesani.github.io/Weather-Project-/"
+                                                  class="footer-link" data-target-backup="_blank" target="_blank"
+                                                  contenteditable="false">
+                                                  <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
+                                                      stroke-linecap="round" stroke-linejoin="round"></path>
+                                                  </svg>
+                                                  <h4>Weather App</h4>
+                                                </a>
+                                              </li>
+                                              <li class="footer-link-item">
+                                                <a href="https://desanitechnologysx.blogspot.com/" class="footer-link"
+                                                  data-target-backup="_blank" target="_blank" contenteditable="false">
+                                                  <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
+                                                      stroke-linecap="round" stroke-linejoin="round"></path>
+                                                  </svg>
+                                                  <h4>Blog Articles</h4>
+                                                </a>
+                                              </li>
+                                              <li class="footer-link-item">
+                                                <a href="https://www.youtube.com/@DesaniTechnology" class="footer-link"
+                                                  data-target-backup="_blank" target="_blank" contenteditable="false">
+                                                  <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
+                                                      stroke-linecap="round" stroke-linejoin="round" class="">
+                                                    </path>
+                                                  </svg>
+                                                  <h4>Desani Technology</h4>
+                                                </a>
+                                              </li>
+                                              <li class="footer-link-item">
+                                                <a href="https://www.youtube.com/@DesaniXBusinessFinance"
+                                                  class="footer-link" data-target-backup="_blank" target="_blank"
+                                                  contenteditable="false">
+                                                  <svg class="footer-link-icon" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"
+                                                      stroke-linecap="round" stroke-linejoin="round"></path>
+                                                  </svg>
+                                                  <h4>DesaniX Business & Finance</h4>
+                                                </a>
+                                              </li>
+                                            </ul>
+                                          </div>
+
+                                          <!-- Resources Column -->
+
+
+
+
+
+                                          <div id="dynamic-script-container-yccdnnbfy">
+
+                                          </div>
+                                          <div id="dynamic-script-container-r6baajhhc">
+
+                                          </div>
+                                          <div id="dynamic-script-container-ituwvrsd9">
+
+                                          </div>
+                                          <div id="dynamic-script-container-gkriekzbb">
+                                          </div>
+                                          <div id="dynamic-script-container-4cbju1ws4"></div>
+                                          <div id="dynamic-script-container-5xu7f3c2w"></div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
+                    </footer>
                   </div>
                 </div>
               </div>
@@ -1172,6 +1201,8 @@ document.getElementById("footerNewsletterForm").addEventListener("submit", funct
         </div>
       </div>
     </div>
+  </div>
+  </div>
   </div>
   </div>
   </div>
